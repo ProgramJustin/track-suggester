@@ -26,34 +26,34 @@ $(document).ready(function() {
 
      } else if (ruby === "option1" && php === "option3") {
 
-       alert("ruby and php");
+       $("img#showRuby").show();
+       $("img#showPHP").show();
 
      } else if (design === "option2" && php === "option3") {
 
-       alert("deisgn and php");
+       $("img#showDesign").show();
+       $("img#showPHP").show();
 
      } else if (ruby === "option1") {
 
-       alert("ruby");
+       $("img#showRuby").show();
 
      } else if (design === "option2") {
 
-       alert("design");
+       $("img#showDesign").show();
 
      } else if (php === "option3") {
 
-       alert("php");
+       $("img#showPHP").show();
 
-     } else if (cHash === "option5") {
+     } else if (cHash === "option4") {
 
-        alert("c#")
+        $("img#showCsharp").show();
 
-     } else if (moreTracks) {
+     } else if (moreTracks === "option5") {
 
-       alert("For more tracks check out");
+       alert("For more tracks check out www.epicodus.com");
 
      }
-
-
   });
 });
