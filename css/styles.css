@@ -35,7 +35,6 @@ button {
   margin-bottom: 50px;
 }
 
-
 .centeredDiv {
   margin-top: 100px;
   border: 10px solid black;
@@ -48,6 +47,10 @@ button {
   text-align: center;
 }
 .centeredDiv ul {
+  float: left;
+  font-size: 20px;
+}
+.centeredDiv ol {
   float: left;
   font-size: 20px;
 }
