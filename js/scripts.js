@@ -21,7 +21,8 @@ $(document).ready(function() {
 
      } else if (ruby === "option1" && design === "option2") {
 
-       alert("ruby and design");
+       $("img#showRuby").show();
+       $("img#showDesign").show();
 
      } else if (ruby === "option1" && php === "option3") {
 
