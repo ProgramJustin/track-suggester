@@ -52,7 +52,8 @@ $(document).ready(function() {
 
      } else if (moreTracks === "option5") {
 
-       alert("For more tracks check out www.epicodus.com");
+      (window.confirm('If you click "ok" you would be redirected . Cancel will load this website '));
+      document.location.href = "https://www.epicodus.com/portland/";
 
      }
   });
