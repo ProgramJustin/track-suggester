@@ -3,7 +3,7 @@
 ## CONTRIBUTORS: **JUSTIN GOMEZ**
 
 #PROJECT DESCRIPTION:
-### _TO SUGGEST TRACKS FOR STUDENTS TO TAKE AT  [ClicK here](https://www.epicodus.com/)_
+### _SUGGEST TRACKS FOR STUDENTS TO TAKE AT [ClicK here](https://www.epicodus.com/)_
 
 # COMPLETE SET-UP INSTRUCTIONS
 1. DOWNLOAD OR CLONE FROM REPOSITORY [Click here](https://github.com/ProgramJustin/track-suggester)...
