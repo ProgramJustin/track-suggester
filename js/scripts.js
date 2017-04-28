@@ -10,9 +10,9 @@ $(document).ready(function() {
      var cHash = $("input:radio[name=cHash]:checked").val();
      var moreTracks  = $("input:radio[name=moreTracks]:checked").val();
 
-     if(ruby === "option1" && design === "option2" && php === "option3") {
+     if(ruby === "option1" && design === "option2" && php === "option3" && cHash === "option4") {
 
-       alert("you chose ruby, design and php");
+       alert("you chose ruby, design and php, chash");
 
      } else if (ruby === "option1" && design === "option2") {
 
