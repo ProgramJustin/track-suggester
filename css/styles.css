@@ -11,6 +11,11 @@
   margin-top: 125px;
 }
 form {
-  
-  float: left;
+text-align: center;
+}
+.col-md-3 img {
+  display: none;
+  height: 300px;
+  width: 300px;
+  border: 1px solid black;
 }

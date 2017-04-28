@@ -1,8 +1,9 @@
 
 $(document).ready(function() {
 
-  $("form").submit(function() {
+  $("form").submit(function(event) {
 
+    event.preventDefault();
 
      var ruby = $("input:radio[name=ruby]:checked").val();
      var design = $("input:radio[name=design]:checked").val();
@@ -13,6 +14,10 @@ $(document).ready(function() {
      if(ruby === "option1" && design === "option2" && php === "option3" && cHash === "option4") {
 
        alert("you chose ruby, design and php, chash");
+       $("img#showRuby").show();
+       $("img#showDesign").show();
+       $("img#showPHP").show();
+       $("img#showCsharp").show();
 
      } else if (ruby === "option1" && design === "option2") {
 
@@ -44,9 +49,10 @@ $(document).ready(function() {
 
      } else if (moreTracks) {
 
-       alert("more Tracks");
+       alert("For more tracks check out");
 
      }
+
 
   });
 });
