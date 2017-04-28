@@ -1,0 +1,9 @@
+.container-fluid {
+
+}
+.header {
+  height: 400px;
+  background-color: #00B3B4;
+  color: white;
+  text-align: center;
+}
