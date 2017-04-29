@@ -1,6 +1,6 @@
 
 $(document).ready(function() {
-
+  
   $("form").submit(function(event) {
 
     event.preventDefault();
@@ -13,7 +13,7 @@ $(document).ready(function() {
 
      if(ruby === "option1" && design === "option2" && php === "option3" && cHash === "option4") {
 
-       alert("you chose ruby, design and php, chash");
+
        $("img#showRuby").show();
        $("img#showDesign").show();
        $("img#showPHP").show();
