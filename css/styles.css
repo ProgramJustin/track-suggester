@@ -2,7 +2,8 @@
 html {
   background-color: grey;
 }
-.container-fluid {
+
+body .container-fluid {
 background-color: grey;
 }
 .header {
@@ -49,8 +50,8 @@ button {
 }
 .col-md-3 img {
   display: none;
-  height: 300px;
-  width: 300px;
+  height: 275px;
+  width: 275px;
   background-color: white;
   border: none;
   border-radius: 50px;
