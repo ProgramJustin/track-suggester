@@ -2,7 +2,7 @@
 html {
   background-color: grey;
 }
-.container-fluid {
+body, .container-fluid {
 background-color: grey;
 }
 .header {
