@@ -3,7 +3,7 @@ html {
   background-color: grey;
 }
 
-body .container-fluid {
+body, .container-fluid {
 background-color: grey;
 }
 .header {
